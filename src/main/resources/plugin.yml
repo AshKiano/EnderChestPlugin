@@ -1,0 +1,9 @@
+name: EnderChestPlugin
+version: '${project.version}'
+main: com.ashkiano.enderchestplugin.EnderChestPlugin
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  enderchest:
+    description: Opens your Ender Chest.
+    usage: /<command>
