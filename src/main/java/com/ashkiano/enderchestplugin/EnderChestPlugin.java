@@ -9,6 +9,7 @@ public class EnderChestPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        Metrics metrics = new Metrics(this, 21263);
         getLogger().info("EnderChestPlugin has been enabled!");
     }
 
